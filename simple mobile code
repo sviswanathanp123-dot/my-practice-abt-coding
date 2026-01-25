@@ -1,0 +1,23 @@
+# Phone suggestion based on user amount
+
+amount = int(input("Enter your amount: "))
+
+print("\nPhones available for your budget:")
+
+if amount >= 30000:
+    print("iPhone")
+    print("Samsung S Series")
+    print("OnePlus")
+
+elif amount >= 20000:
+    print("Samsung A Series")
+    print("Redmi Note")
+    print("Vivo")
+
+elif amount >= 10000:
+    print("Redmi")
+    print("Realme")
+    print("Infinix")
+
+else:
+    print("Basic phone")
