@@ -1,0 +1,15 @@
+students = {}
+
+while True:
+    print("\n1.Add 2.View 3.Exit")
+    ch = int(input("Choose: "))
+
+    if ch == 1:
+        name = input("Name: ")
+        mark = int(input("Mark: "))
+        students[name] = mark
+    elif ch == 2:
+        for k, v in students.items():
+            print(k, ":", v)
+    else:
+        break
