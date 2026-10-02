@@ -1,8 +1,1 @@
-num = int(input("Enter a number: "))
-
-if num > 0:
-    print("Positive number")
-elif num < 0:
-    print("Negative number")
-else:
-    print("Zero")
+This is my 1st learning step in python to increase my coding skills 
